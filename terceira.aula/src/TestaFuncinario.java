@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class TestaFuncinario {
     public static void main(String[] args) {
-        HashMap<String, Funcionario> funcionarios = new HashMap<String, Funcionario>();
+        HashMap<String, Funcionario> funcionarios = new HashMap<String, Funcionario>(14);
 
         for (int i = 0; i < 14; i++) {
             Funcionario funcionario = new Funcionario("Funcionario "+(i+1),"reles mortal", 1320);
