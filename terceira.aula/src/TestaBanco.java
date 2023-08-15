@@ -1,3 +1,5 @@
+import java.util.Collections;
+
 public class TestaBanco {
     public static void main(String[] args) {
         Banco banco = new Banco();
@@ -10,6 +12,8 @@ public class TestaBanco {
         }
 
         System.out.println(banco);
+        // printSearchResults(banco,"");
+
     }
 }
 
