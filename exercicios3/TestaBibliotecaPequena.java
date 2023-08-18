@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class TestaBibliotecaPequena {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        System.out.println("testando");
 
         String[] livros = new String[6];
 
@@ -21,9 +20,9 @@ public class TestaBibliotecaPequena {
         // "Como programadar em Java: Xico Edition",
         // "O Diário de Um Banana" };
 
-        BibliotecaPequena bibliotecaPequena = new BibliotecaPequena("Santa Maria", livros);
 
-        bibliotecaPequena.listarLivros();
+        BibliotecaPequena biblioteca = new BibliotecaPequena("Santa Maria", livros);
+        biblioteca.listarLivros();
     }
 
 }
