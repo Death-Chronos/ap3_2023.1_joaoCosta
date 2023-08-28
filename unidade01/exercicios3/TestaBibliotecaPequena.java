@@ -19,10 +19,12 @@ public class TestaBibliotecaPequena {
         // "Seja um orador",
         // "Como programadar em Java: Xico Edition",
         // "O Diário de Um Banana" };
+        teclado.close();
 
 
         BibliotecaPequena biblioteca = new BibliotecaPequena("Santa Maria", livros);
         biblioteca.listarLivros();
     }
+    
 
 }

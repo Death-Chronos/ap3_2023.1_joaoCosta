@@ -14,6 +14,7 @@ public class testaCarro {
             Carro carro = new Carro(teclado.next(), teclado.next(), teclado.nextInt());
             carros.add(carro);
         }
+        teclado.close();
         
         for (Carro carro : carros) {
             System.out.println(carro.toString());

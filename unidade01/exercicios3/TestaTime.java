@@ -17,6 +17,7 @@ public class TestaTime {
         for (int i = 0; i < 11; i++) {
             time.cadastrarJogador();
         }
+        teclado.close();
         time.listarJogadores();
         time2.listarJogadores();
     }

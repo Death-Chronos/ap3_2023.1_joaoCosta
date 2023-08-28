@@ -1,5 +1,3 @@
-import java.time.LocalDate;
-
 public class TestaCarro {
 
     public static void main(String[] args) {
