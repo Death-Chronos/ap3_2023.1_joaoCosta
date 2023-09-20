@@ -1,5 +1,10 @@
 package src.exercicios02.exercicio02;
 
+import java.io.IOException;
+
+import javax.sound.sampled.LineUnavailableException;
+import javax.sound.sampled.UnsupportedAudioFileException;
+
 public class Animal {
     private String nome;
     private int idade;
@@ -17,7 +22,7 @@ public class Animal {
         this.idade = idade;
     }
 
-    public String emitirSons(){
+    public String emitirSons() throws LineUnavailableException, UnsupportedAudioFileException, IOException, InterruptedException{
         return "Vozes do além";
     }
 

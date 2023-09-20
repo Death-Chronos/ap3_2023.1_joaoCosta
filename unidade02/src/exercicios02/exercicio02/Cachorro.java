@@ -48,8 +48,8 @@ public class Cachorro extends Animal {
         return "Ele ta sem zap... AUAUAUAUARGARAU ";
     }
 
-    // @Override
-    // public String emitirSons() {
-    //     return latir();
-    // }
+     @Override
+     public String emitirSons() throws LineUnavailableException, UnsupportedAudioFileException, IOException, InterruptedException {
+         return latir();
+     }
 }
