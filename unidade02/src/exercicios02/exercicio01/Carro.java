@@ -11,5 +11,9 @@ public class Carro extends Veiculo {
         this.numeroPortas = numeroPortas;
     }
 
+    @Override
+    public String descrever() {
+        return super.descrever()+", numero de Portas = " +this.numeroPortas;
+    }
     
 }

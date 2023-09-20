@@ -6,7 +6,7 @@ public class Veiculo {
     private String marca;
     private String modelo;
     private int ano;
-    
+
     public String getMarca() {
         return marca;
     }
@@ -25,6 +25,12 @@ public class Veiculo {
     public void setAno(int ano) {
         this.ano = ano;
     }
+    
+    public String descrever() {
+        return "Veiculo: marca=" + marca + ", modelo=" + modelo + ", ano=" + ano;
+    }
+
+    
 
     
 }

@@ -11,5 +11,12 @@ public class Moto extends Veiculo{
         this.cilindrada = cilindrada;
     }
 
+    @Override
+    public String descrever() {
+        return super.descrever()+", cilindrada=" +this.cilindrada;
+    }
+
+    
+
     
 }
