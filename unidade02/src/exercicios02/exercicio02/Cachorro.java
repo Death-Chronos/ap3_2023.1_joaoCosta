@@ -39,8 +39,8 @@ public class Cachorro extends Animal {
         AudioInputStream audioInput = AudioSystem.getAudioInputStream(input);
         oClip.open(audioInput);
 
-        //oClip.loop();  Toca uma vez
-         oClip.loop(Clip.LOOP_CONTINUOUSLY); // Toca continuamente (para o caso de músicas)
+        oClip.loop(0); // Toca uma vez
+        // oClip.loop(Clip.LOOP_CONTINUOUSLY);  Toca continuamente (para o caso de músicas)
         Thread.sleep(5000);
 
 
